@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "ditto_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "sttlfguwnkwlcr",
+    "password": "36a20b49ab50f53137d121149bbe52a7b887e4d2892cf39392a2e1d325034905",
+    "database": "dd44727sbj01hh",
+    "port": 5432,
+    "host": "ec2-107-20-177-161.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "ssl":true,
+    "dialectOptions":{
+       "ssl":{
+          "require":true
+       }
+    }
+  }
+}
